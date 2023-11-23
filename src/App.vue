@@ -19,6 +19,8 @@ export default {
   position: relative;
   width: 1440px;
   height: 1024px;
+  left: 50%;
+  transform: translateX(-50%);
   background: url(./assets/Screenshot.png) -190px -147px no-repeat;
   background-size: 2082px 1171px;
   /* 或者 contain，根据需要选择适当的值 */
